@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import Apicallfunc from "./components/Apicallfunc";
 
 class App extends React.Component {
   state = {
@@ -31,6 +32,10 @@ class App extends React.Component {
         </div>
         <div>{this.state.person.gender}</div>
         <div>{this.state.person.email}</div>
+        <br />
+        <br />
+        <br />
+        <Apicallfunc />
       </div>
     );
   }
